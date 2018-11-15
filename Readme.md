@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* **[MainWindow.xaml](./CS/DXSample/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/DXSample/MainWindow.xaml))**
+* [PageStyleSelector.cs](./CS/DXSample/PageStyleSelector.cs) (VB: [PageStyleSelector.vb](./VB/DXSample/PageStyleSelector.vb))
+* [ViewModel.cs](./CS/DXSample/ViewModel.cs) (VB: [ViewModel.vb](./VB/DXSample/ViewModel.vb))
+<!-- default file list end -->
 # How to: Create a wizard based on a collection of view models
 
 
