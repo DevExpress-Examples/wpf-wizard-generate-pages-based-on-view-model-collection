@@ -1,7 +1,4 @@
-﻿using DevExpress.Mvvm;
-using System;
-using System.Collections.ObjectModel;
-using System.Linq;
+﻿using System.Collections.ObjectModel;
 
 namespace DXSample {
     public class MainViewModel {
