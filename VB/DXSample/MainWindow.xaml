@@ -1,14 +1,13 @@
-<dx:DXWindow  x:Class="DXSample.MainWindow"
+<Window x:Class="DXSample.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
         xmlns:dxco="http://schemas.devexpress.com/winfx/2008/xaml/controls"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:local="clr-namespace:DXSample"
         Title="MainWindow" Height="350" Width="525">
-    <dx:DXWindow.DataContext>
+    <Window.DataContext>
         <local:MainViewModel/>
-    </dx:DXWindow.DataContext>
-    <dx:DXWindow.Resources>
+    </Window.DataContext>
+    <Window.Resources>
         
         <DataTemplate x:Key="pageContentTemlate">
             <TextBlock Text="{Binding Text}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
@@ -49,10 +48,10 @@
                 </Style>
             </local:PageStyleSelector.CompletionPageStyle>
         </local:PageStyleSelector>
-    </dx:DXWindow.Resources>
+    </Window.Resources>
     <Grid>
         <dxco:Wizard ItemsSource="{Binding Pages}"
                      ItemTemplate="{StaticResource pageContentTemlate}"
                      ItemContainerStyleSelector="{StaticResource pageStyleSelector}"/>
     </Grid>
-</dx:DXWindow>
+</Window>
