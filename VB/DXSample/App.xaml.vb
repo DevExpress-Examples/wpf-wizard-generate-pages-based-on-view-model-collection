@@ -1,20 +1,16 @@
-﻿Imports System
-Imports System.Collections.Generic
-Imports System.Configuration
-Imports System.Data
-Imports System.Linq
 Imports System.Windows
 Imports DevExpress.Xpf.Core
 
 Namespace DXSample
+
     ''' <summary>
     ''' Interaction logic for App.xaml
     ''' </summary>
-    Partial Public Class App
+    Public Partial Class App
         Inherits Application
 
         Private Sub OnAppStartup_UpdateThemeName(ByVal sender As Object, ByVal e As StartupEventArgs)
-            DevExpress.Xpf.Core.ApplicationThemeHelper.UpdateApplicationThemeName()
+            ApplicationThemeHelper.UpdateApplicationThemeName()
         End Sub
     End Class
 End Namespace
