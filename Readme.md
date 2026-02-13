@@ -32,7 +32,7 @@ This example demonstrates how to define a collection of [wizard pages](https://d
 * [Create a Wizard with Pages Defined in XAML](https://github.com/DevExpress-Examples/wpf-create-a-wizard-with-pages-defined-in-xaml)
 * [How to Use the WPF WizardService](https://github.com/DevExpress-Examples/how-to-use-the-wpf-wizardservice)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-wizard-generate-pages-based-on-view-model-collection&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-wizard-generate-pages-based-on-view-model-collection&~~~was_helpful=no)
 
